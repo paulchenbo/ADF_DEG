@@ -42,9 +42,7 @@ int main()
    avg_ang=angle_avg(angle,5);
    if (avg_ang>=180)
        avg_ang=avg_ang-360;
- //  if ((abs(avg_ang)<20)&&(adf_lock==1))
-       printf("失锁 : %f\n", avg_ang); //输出测量累积误差
-  // else
-  //     printf("锁定          %d\n",angle[1]);
+   printf("失锁 : %f\n", avg_ang); //输出测量累积误差
 }
+
 
